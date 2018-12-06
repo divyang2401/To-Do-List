@@ -3,7 +3,8 @@ var mongoose=require('mongoose');
 
 
 // connect to the database
-mongoose.connect('mongodb://test:divyang2401@ds213513.mlab.com:13513/mytodo');
+mongoose.connect('mongodb://localhost:27017/myproject');// write your monogoDB connection URL
+
 
 // create a schema
 var todoschema= new mongoose.Schema({
